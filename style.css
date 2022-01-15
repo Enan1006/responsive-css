@@ -1,0 +1,358 @@
+* {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.web-logo {
+    padding: 20px;
+}
+
+section {
+    margin: 120px 100px 0px;
+}
+
+h1 {
+    font-size: 52px;
+    line-height: 70px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.element-gap {
+    margin-top: 20px;
+}
+
+
+/*============================== HERO SECTION ============================*/
+
+.hero {
+    display: flex;
+}
+
+.hero-content {
+    row-gap: 120px;
+}
+
+.btn-hero {
+    background-color: #E02C6D;
+    color: white;
+    font-size: 16px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+}
+
+
+/*============================== PARTNERS SECTION ============================*/
+
+.partners img{
+    width: 150px;
+    height: 100px;
+}
+ .partners{
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+/*============================== COURSE COLLECTION SECTION ============================*/
+
+.popular-collection>h2 {
+    text-align: center;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.collection {
+    border: 1px solid white;
+    padding:20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin: 20px;
+}
+
+.popular-collection p {
+    font-size: 14px;
+    color: #787885;
+    font-weight: 400;
+}
+
+.fa-star {
+    font-size: 16px;
+    color: #FB8200;
+}
+
+.see-more {
+    color: #E02C6DDE;
+    font-size: 16px;
+    font-weight: 400;
+    float: right;
+    background-color: transparent;
+    border: none;
+    padding-bottom: 50px;
+}
+
+.collection-btn {
+    padding: 20px 0px 100px;
+}
+
+
+footer {
+    background-color: #0a0826;
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.social-icons {
+    font-size: 32px;
+    color: white;
+}
+
+
+/*==================================== FORM SECTION ===========================*/
+
+.container{
+    width: 85%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .container .content .left-side{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+  }
+  .content .left-side::before{
+    content: '';
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #afafb6;
+  }
+  .content .left-side .details{
+    margin: 14px;
+    text-align: center;
+  }
+  .content .left-side .details i{
+    font-size: 30px;
+    color: #E02C6DDE;
+    margin-bottom: 10px;
+  }
+  .content .left-side .details .topic{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .content .left-side .details .text-one,
+  .content .left-side .details .text-two{
+    font-size: 14px;
+    color: #afafb6;
+  }
+  .container .content .right-side{
+    width: 75%;
+    margin-left: 75px;
+  }
+  .content .right-side .topic-text{
+    font-size: 23px;
+    font-weight: 600;
+    color: #E02C6DDE;
+  }
+  .right-side .input-box{
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+  }
+  .right-side .input-box input,
+  .right-side .input-box textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #F0F1F8;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+  }
+  .right-side .message-box{
+    min-height: 110px;
+  }
+  .right-side .input-box textarea{
+    padding-top: 6px;
+  }
+  .right-side .button{
+    display: inline-block;
+    margin-top: 12px;
+  }
+  .right-side .button input[type="button"]{
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: #E02C6D;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button input[type="button"]:hover{
+    color: #E02C6D;
+    background: white;
+    border: 1px solid #E02C6D;
+    transform: scale(1.1);
+    transition: transform .5s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transition: transform .5s;
+    -moz-transition: transform .5s;
+    -ms-transition: transform .5s;
+    -o-transition: transform .5s;
+}
+  
+
+
+
+/*============================== MOBILE RESPONSIVE ============================*/
+
+@media only screen and (max-width: 576px) {
+    
+    section, .container {
+        margin: 0px 0px;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+        margin-left: 10%;
+
+    }
+
+    .partners {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .collections {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    
+    .hero-content {
+        width: 90%;
+
+    }
+
+     .hero img {
+        width: 100%;
+    }
+
+    .container{
+        margin: 40px 0;
+        height: 100%;
+      }
+      .container .content{
+        flex-direction: column-reverse;
+      }
+     .container .content .left-side{
+       width: 100%;
+       flex-direction: row;
+       margin-top: 40px;
+       justify-content: center;
+       flex-wrap: wrap;
+     }
+     .container .content .left-side::before{
+       display: none;
+     }
+     .container .content .right-side{
+       width: 100%;
+       margin-left: 0;
+     }
+}
+
+
+
+
+/*============================== TAB RESPONSIVE ============================*/
+
+
+
+@media only screen and (min-width: 577px)
+  and (max-width: 768px) {
+    
+    section {
+        margin: 0px 0px;
+        /* margin-top: 100px; */
+
+    }
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+        margin-left: 10%;
+}
+    
+
+    .partners {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .partners img {
+        margin:0px 20px;
+    }
+
+    .collections {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .hero-content {
+        width: 90%;
+
+    }
+
+     .hero img {
+        width: 100%;
+    }
+
+    .container{
+        width: 90%;
+        padding: 30px 40px 40px 35px ;
+      }
+      .container .content .right-side{
+       width: 75%;
+       margin-left: 55px;
+    }
+}
+
+
